@@ -1,0 +1,154 @@
+body{
+    background-color: #97C1EA;
+    }
+    
+#signupForm{
+    width: 20%;
+    margin: auto;
+    
+}
+#doctorPatientButtons{
+    text-align: center;
+}
+
+
+    /* margin-top: 15rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-style: oblique;
+    font-weight: bolder;
+} */
+
+div.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+div.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input.btn.btn-primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.addPatient {
+    width: 50%;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 5%;
+}
+
+.listTitle{
+    margin-right: 40%;
+    font-weight: 20px;
+    color: blue;
+  }
+  
+  .list{
+    margin-left: 40%;
+  }
+  
+  .patientId {
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: lightblue;
+  }
+  
+  .listChart {
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 40%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top:2%
+  }
+  
+  .names{
+    display: inline-flex;
+    margin-left: 5px;
+  }
+  .greeting{
+    width: 20%;
+    margin-right:5%;
+  }
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.login-form{
+    margin-top: 40%;
+}
+.signup-form{
+    margin-top: 20%;
+}
+.topPage{
+    margin-top: 12%
+   
+}
+.doctorInfo{
+   
+    background-color:transparent;
+}
+.card{
+    background-color: transparent;
+    border: none;
+}
+.container{
+    margin-top: 10%;
+}
